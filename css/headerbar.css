@@ -121,5 +121,14 @@ a{
 
 	
 }
+@media(max-width:500px){
+
+
+
+}
+.linkbar li{
+
+	margin-right:0px;
+}
 
 

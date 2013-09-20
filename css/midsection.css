@@ -69,8 +69,8 @@ h1{
 
 	font-family: 'Aller_Rg';
 	font-size: 26px;
-	padding-bottom:15px;
 	color:#a32020;
+	width:80px;
 	font-weight:bold;
 }
 
@@ -155,32 +155,38 @@ height:220px;
 
 @media(max-width:900px){
 	.center{
+		margin-top:10px;
 		width:90%;
+		border-top:2px solid #d0cecb;
 	}
 
-.dlbar{
-	margin-top:0px;
-	border-top:hidden;
-	width:90%;
-	margin-right:auto; 
-	margin-left:auto;
-	height:auto;
-	float:none;
-	padding-right:10%;
-	padding-left:10%;
+	.dlbar{
+		margin-top:0px;
+		border-top:hidden;
+		width:70%;
+		margin-right:auto; 
+		margin-left:auto;
+		height:auto;
+		float:none;
+		padding-right:10%;
+		padding-left:10%;
 	}
 	h1{
-	padding-bottom:10px;
+		padding-bottom:10px;
 	}
 	.linkbutton{
 
 		height:100px;
 		width:130px;
-		margin-left:auto;
-		margin-right:auto;
+
 	}
-	.btn2{
-		margin-left:10%;
+	
+	.buttonpos{
+	
+		text-align:center;
+		width:auto;
+
+
 	}
 
 
@@ -197,3 +203,18 @@ height:220px;
 
 	}
 }
+
+	@media(max-width:450px){
+		.dlbar, .center{
+
+			width:100%;
+		}
+		.middle{
+			width:92%;
+		}
+		.hidesm{
+			display:none;
+		}
+
+	}
+
