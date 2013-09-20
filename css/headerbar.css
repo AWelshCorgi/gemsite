@@ -29,7 +29,7 @@
 }
 .logo{
 	height:200px;
-	width:230px;
+	width:200px;
 	background-color:#d0cecb;
 	background-image: url('../images/gplaypattern.png');
 	background-repeat:repeat;
@@ -38,7 +38,7 @@
 	-webkit-border-radius: 100%;
 	position:absolute;
 	top:-30px;
-	left:-43px; 
+	left:-50px; 
 	color:#a32020;
 	text-align:center; 
 	text-transform: capitalize;
@@ -46,21 +46,31 @@
 	font-size: 26pt;
 	font-family: "Aller_Rg";
 	border: 2px solid #d0cecb;
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box;         /* Opera/IE 8+ */
 }
 .logopos{
 
 	padding-top:70px;
 	padding-left:35px;
 }
-.version{
-	padding-top:15px;
-	padding-left:40px; 
-	font-size:30%;
+
+.desc{
+	font-family: "Aller_Rg";
+	position:absolute;
+	top:126px;
+	left:135px;
+	float:left;
+	width:150px;
+	font-size:15px;
 	font-weight: normal;
+	color:#a32020;
 }
 .rubylogo{
-	padding-top:43px;
-	float:right;
+	position:absolute;
+	bottom:0px;
+	right:0px;
 	width:109px;
 	height:104px;
 }
@@ -68,7 +78,7 @@
 
 	float:right;
 	overflow:auto;
-	margin-top:125px;
+	margin-top:20px;
 	width:370px;
 	height:20px;
 	color:#a32020;
@@ -78,10 +88,38 @@
 .linkbar li{
 
 	display:inline;
-	margin-right:10px;
+	margin-right:7px;
+}
+a{
+
+	color:#a32020;
+	font-family: "Aller_Rg";
+	text-decoration: none;
+
 }
 .icon-circle{
 	margin-right:10px;
 	font-size:20%;
 }
+
+@media(max-width: 600px){
+
+.topbar{
+
+	height: 150px;
+
+}
+
+.linkbar{
+	float:left;
+	margin-top:20px;
+	margin-left:145px;
+
+
+
+}
+
+	
+}
+
 
